@@ -1,5 +1,5 @@
 body{
-  background: #F7E2DC;
+  background: #fcf9f8;
 }
 
 .container{
@@ -12,7 +12,7 @@ body{
 
 .text{
   text-align: center;
-  color: #412050;
+  color: #cec145;
   font-size: 100px;
   font-weight: bold;
   position: relative;
@@ -22,15 +22,17 @@ body{
 
 @keyframes text{
   0%{
-    color: #89E932;
+    color: #00a8d6;
     margin-bottom: -40px;
   }
   30%{
     letter-spacing: 25px;
     margin-bottom: -40px;
+    color: #8bf2eb;
   }
   85%{
     letter-spacing: 8px;
     margin-bottom: -40px;
+    color: #de0fe1;
   }
 }
